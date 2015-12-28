@@ -1,0 +1,54 @@
+
+#start-screen{
+	background-color: white;
+	margin: auto;
+    width: 840px;
+    height: 840px;
+	border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	z-index: 1;
+	display: block;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+div.authors
+{
+    font-size: 20px;
+}
+
+#start-screen button:active {
+      position:relative;
+      top:1px;
+ }
+
+#game-screen{
+    cursor : none;
+    margin: auto;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: block;
+    text-align: center;
+}
+
+#debugCanvas{
+    cursor : none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: block;
+    text-align: center;
+}
